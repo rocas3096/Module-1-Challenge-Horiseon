@@ -1,4 +1,4 @@
-# Module-1-Challlenge-Horiseon
+# Module-1-Challenge-Horiseon
 
 ## Description
 
