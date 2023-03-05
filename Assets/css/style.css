@@ -1,0 +1,239 @@
+/* set box-sizing for all elements, and reset padding and margin */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*sets the background color for the entire webpage*/
+body {
+    background-color: #d9dcd6;
+}
+
+/* sets the styling for the header of the webpage*/
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* makes h1 an inline-block so it floats on the top left of the page*/
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* adds a class to SEO and styles it so it can be a different color from the rest of the logo*/
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/*sets the styling for the div section of the webpage. In this case this represents the links for
+search engine optimization, online reputation management and social media marketing written in an unordered list*/
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* sets the styling of the unordred list mentioned in the comment above to have no item markers*/
+.header div ul {
+    list-style-type: none;
+}
+
+/* sets the unordered list mentioned above as inline block elements. With this added styling a margin was then added
+on the left side of each element with a sizing of 25px so they would have said amount of space from each other*/
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/*gave the unordered list a color of white for the font and removed any sort of underlining and etc that might appear
+when links are clicked*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*sets font size for all paragraphs in the document to 16px*/
+p {
+    font-size: 16px;
+}
+
+/*styles the section labeled "hero" with an image*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/*creates a class for floating elements to the left*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/*creates a class for floating elements to the right*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*styles the section labeled content giving it a width of 75% of the webpage, makes it an inline block,
+and sets it apart from the left margin by 20px*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*styles section labeled benefits on the right side of the page.*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/*gives color to the class of benefit-lead and gives it a margin at the bottom of 32 px*/
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*gives color to the class of benefit-brand and gives it a margin at the bottom of 32 px*/
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*gives color to the class of benefit-cost and gives it a margin at the bottom of 32 px*/
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*sets a margin for the header of the class benefit-lead and aligns it to the center of the element */
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*sets a margin for the header of the class benefit-brand and aligns it to the center of the element */
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*sets a margin for the header of the class benefit-cost and aligns it to the center of the element */
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+ /*sets the styling for the image titled benefit-lead*/
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+ /*sets the styling for the image titled benefit-brand*/
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+ /*sets the styling for the image titled benefit-cost*/
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* sets the syling and margins for the element labled search-engine-optimization*/
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* sets the syling and margins for the element labled online-reputation-management*/
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* sets the syling and margins for the element labled social-media-marketing*/
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*sets the constraints for the image in the search-engine-optimization section*/
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+/*sets the constraints for the image in the online-reputation-management section*/
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+/*sets the constraints for the image in the social-media-marketing section*/
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/*sets the font size and margin seperation at the bottom of the heading within search-engine-optimization section*/
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*sets the font size and margin seperation at the bottom of the heading within online-reputation-management section*/
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*sets the font size and margin seperation at the bottom of the heading within social-media-marketing section*/
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*sets the styling for the footert of the page*/
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/*sets the font size for the header within footer of page*/
+.footer h2 {
+    font-size: 20px;
+}
