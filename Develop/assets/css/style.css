@@ -93,15 +93,7 @@ and sets it apart from the left margin by 20px*/
     margin-left: 20px;
 }
 
-/*styles section labeled benefits on the right side of the page. Seperates it from the right side of the page bY
-20px, provides padding around the element of 20px, the clear both means that it will clear any other floating elements
-so that it may start on a new line below any said elements, the float riht means it will be floated to the right. The width
-of 20% means it will take up 20% of the width of the page, and similarly height being set to 100% will set the height of the
-element to 100% the height of the page. Both of these aforementioned values could be diminished by things such as padding margins
-and things like the "body" element, of which this is a subset, having a limiter on its size. This last point would make it so
-that while it would take up 100% of the height avaliable to the body element, it would not take up 100% of the height of the page.
-The font family gives the differenet fonts that will be used in order based off of their avaliability within the users chosen browser.
-The background color sets the background color of the section.*/
+/*styles section labeled benefits on the right side of the page.*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
