@@ -93,7 +93,7 @@ and sets it apart from the left margin by 20px*/
     margin-left: 20px;
 }
 
-/*styles section labeled benefits on the right side of the page. Seperates it from the right side of the page bY
+/*styles section labeled benefits on the right side of the page. Seperates it from the right side of the page by
 20px, provides padding around the element of 20px, the clear both means that it will clear any other floating elements
 so that it may start on a new line below any said elements, the float riht means it will be floated to the right. The width
 of 20% means it will take up 20% of the width of the page, and similarly height being set to 100% will set the height of the
