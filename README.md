@@ -17,7 +17,7 @@ To review this repository, use this link.
 https://github.com/rocas3096/Module-1-Challenge-Horiseon
 
 Image of website:
-![Deployed fullscreen screenshot of demo website for Horiseon](assets/images/brand-awareness.png)
+![Deployed fullscreen screenshot of demo website for Horiseon](Assets/images/Horiseon-Search-Engine-Optimization-Services-For-You.png)
 
 ## Credits
 
