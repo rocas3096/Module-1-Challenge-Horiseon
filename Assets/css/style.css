@@ -31,7 +31,7 @@ body {
 
 /*sets the styling for the div section of the webpage. In this case this represents the links for
 search engine optimization, online reputation management and social media marketing written in an unordered list*/
-.header div {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -40,13 +40,13 @@ search engine optimization, online reputation management and social media market
 }
 
 /* sets the styling of the unordred list mentioned in the comment above to have no item markers*/
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
 
 /* sets the unordered list mentioned above as inline block elements. With this added styling a margin was then added
 on the left side of each element with a sizing of 25px so they would have said amount of space from each other*/
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -59,7 +59,7 @@ a {
 }
 
 /*sets font size for all paragraphs in the document to 16px*/
-p {
+figcaption {
     font-size: 16px;
 }
 
